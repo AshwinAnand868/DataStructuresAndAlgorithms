@@ -1,0 +1,5 @@
+This assignment contains the implementation of table data structure. Table is an abstract class. This means that it describes the functionalities of a Table but does not implement any part of it. It is up to classes derived from the Table to implement the Table itself. The classes that derives this class will have their specific implementations like whether it is a hash table or a sorted array and what kind of collision resolution method it follows and several other factors. 
+
+In this assignment, there are three kinds of table derived from Table Class which includes SimpleTable, ChainingTable, and LPTable(LinearProbingTable). Every kind of table mentioned above contains a "record", which consists of key-value pairs. The key is a c++ string, while value can be of any data type that needs to support the following operations: assignment and instantiation without arguments.
+
+They are named ChainingTable and LinearProbingTable because they use Chaining and LinearProbing as their collision resoution methods as their name suggests.
